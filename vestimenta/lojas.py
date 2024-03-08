@@ -2,7 +2,7 @@ import requests
 
 def buscar_lojas_na_cidade(cidade):
     # Chave de API do Google Places (substitua pela sua chave)
-    google_places_api_key = 'SUA_CHAVE_DO_GOOGLE_PLACES_API'
+    google_places_api_key = 'AIzaSyA7avfR2zZ6K87P21b4_8_8CLWKTCpZCtI'
 
     # URL da API do Google Places para buscar lojas na cidade
     url = 'https://maps.googleapis.com/maps/api/place/textsearch/json'
