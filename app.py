@@ -3,7 +3,7 @@ from clima.clima_api import api_key
 from clima.traducao_clima import translate_weather
 from vestimenta.preferencias_user import obter_preferencias_usuario
 from vestimenta.recomenda_user import obter_recomendacao_vestimenta
-from vestimenta.chatbot import interagir_com_chatbot 
+from gemini_ia.gemini_ia_api import interagir_com_chatbot 
 from utils.conversoes import fahrenheit_to_celsius
 
 def main():
